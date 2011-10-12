@@ -1,0 +1,33 @@
+[submodule "deps/phpunit"]
+	path = deps/phpunit
+	url = git://github.com/sebastianbergmann/phpunit.git
+[submodule "deps/dbunit"]
+	path = deps/dbunit
+	url = git://github.com/sebastianbergmann/dbunit.git
+[submodule "deps/php-file-iterator"]
+	path = deps/php-file-iterator
+	url = git://github.com/sebastianbergmann/php-file-iterator.git
+[submodule "deps/php-text-template"]
+	path = deps/php-text-template
+	url = git://github.com/sebastianbergmann/php-text-template.git
+[submodule "deps/php-code-coverage"]
+	path = deps/php-code-coverage
+	url = git://github.com/sebastianbergmann/php-code-coverage.git
+[submodule "deps/php-token-stream"]
+	path = deps/php-token-stream
+	url = git://github.com/sebastianbergmann/php-token-stream.git
+[submodule "deps/php-timer"]
+	path = deps/php-timer
+	url = git://github.com/sebastianbergmann/php-timer.git
+[submodule "deps/phpunit-mock-objects"]
+	path = deps/phpunit-mock-objects
+	url = git://github.com/sebastianbergmann/phpunit-mock-objects.git
+[submodule "deps/phpunit-selenium"]
+	path = deps/phpunit-selenium
+	url = git://github.com/sebastianbergmann/phpunit-selenium.git
+[submodule "deps/phpunit-story"]
+	path = deps/phpunit-story
+	url = git://github.com/sebastianbergmann/phpunit-story.git
+[submodule "deps/php-invoker"]
+	path = deps/php-invoker
+	url = git://github.com/sebastianbergmann/php-invoker.git

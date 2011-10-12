@@ -41,6 +41,29 @@ if (strpos('@php_bin@', '@php_bin') === 0) {
     set_include_path(dirname(__FILE__) . PATH_SEPARATOR . get_include_path());
 }
 
+$extra_paths = array(
+  'dbunit',
+  'php-code-coverage',
+  'php-file-iterator',
+  'php-text-template',
+  'php-timer',
+  'php-token-stream',
+  'phpunit',
+  'phpunit-mock-objects',
+  'phpunit-selenium',
+  'phpunit-story',
+  'php-invoker'
+);
+
+$include_path = '';
+foreach($extra_paths as $path){
+  $dir = __DIR__ . '/deps/';
+  $path = $dir . $path . PATH_SEPARATOR;
+  $include_path .= $path;
+}
+set_include_path($include_path . get_include_path());
+
 require 'PHPUnit/Autoload.php';
 
 PHPUnit_TextUI_Command::main();
+
