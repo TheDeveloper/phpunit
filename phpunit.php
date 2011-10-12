@@ -48,7 +48,6 @@ $extra_paths = array(
   'php-text-template',
   'php-timer',
   'php-token-stream',
-  'phpunit',
   'phpunit-mock-objects',
   'phpunit-selenium',
   'phpunit-story',
